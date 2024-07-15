@@ -1,0 +1,14 @@
+{
+  "name": "basics",
+  "version": "1.0.0",
+  "type": "module",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "transpileAll": "tsc packages/*/*.ts --target es2022"
+  },
+  "devDependencies": {
+    "typescript": "5.5.3"
+  }
+}
